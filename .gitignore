@@ -1,0 +1,80 @@
+# ----------------------
+# OS-SPECIFIC FILES
+# ----------------------
+.DS_Store           # macOS Finder metadata
+Thumbs.db           # Windows image cache
+
+# ----------------------
+# PYTHON
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+*.env
+.env
+.venv/
+venv/
+Pipfile.lock
+poetry.lock
+
+# ----------------------
+# JAVA
+# ----------------------
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.iml
+target/
+build/
+
+# ----------------------
+# WEB DEVELOPMENT
+# ----------------------
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+build/
+.env.local
+.env.development
+.env.production
+package-lock.json
+yarn.lock
+
+# ----------------------
+# IDE / EDITOR FILES
+# ----------------------
+.vscode/
+.idea/
+*.swp        # Vim swap files
+*.sublime-*  # Sublime Text metadata
+
+# ----------------------
+# LOG / TEMP FILES
+# ----------------------
+*.log
+*.tmp
+*.bak
+*.old
+
+# ----------------------
+# OTHER COMMON STUFF
+# ----------------------
+coverage/
+*.sqlite3
+*.db
+*.zip
+*.tar.gz
+*.gz
+
+# ----------------------
+# GIT
+# ----------------------
+*.orig
